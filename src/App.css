@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#parent {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh; /* Full viewport height */
+  overflow: scroll; /* Prevent parent overflow */
+}
+
+#parent > #leftDiv {
+  /* border: 1px solid black; */
+  width: auto;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#parent > #rightDiv {
+  /* border: 1px solid rgb(214, 12, 12); */
+  width: auto;
+  height: 100%;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.print-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(249, 115, 67);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.price {
+  margin: 8px 0px;
+  font-size: 20px;
+  color: orangered;
+}
+.attToCart {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #leftDiv {
+    width: 100% !important;
+  }
+  #items {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ) !important; /* 2 products per row on small screens */
+  }
+}
+#parent {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#leftDiv {
+  width: 70%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allow leftDiv to grow and push rightDiv down */
+}
+
+#rightDiv {
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: white;
+  flex-shrink: 0; /* Ensure rightDiv does not shrink too much */
+  overflow-y: auto; /* Allow scrolling if content exceeds height */
+}
+
+.toast-container {
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  #parent {
+    flex-direction: column; /* Stack items vertically on medium screens */
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  #rightDiv {
+    width: 80% !important; /* Ensure sidebar takes full width on medium screens */
+    margin-top: 20px; /* Space between main content and sidebar */
+  }
+}
+
+@media (max-width: 768px) {
+  #parent {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  #leftDiv,
+  #rightDiv {
+    width: 100% !important; /* Full width for both main content and sidebar on small screens */
+    margin-top: 20px; /* Space between main content and sidebar */
+  }
+}
