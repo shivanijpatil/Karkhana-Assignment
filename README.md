@@ -1,5 +1,5 @@
 ## Introduction
-This is a company assignment given by Karkhana.io for  fronted role we have to clone the given image with add-to-cart functionality and many more...
+This is a company assignment given by Karkhana.io for the fronted role we have to clone the given image with add-to-cart functionality and many more...
 
 ## Assignment 
 ![Gimber](./src/assets/assignment.png)
@@ -8,69 +8,65 @@ This is a company assignment given by Karkhana.io for  fronted role we have to c
 Frontend 
 
 ## Deployed App
-
+karkhana-assignment-olive.vercel.app/
 
 # Screenshots of the assignment
-
+![mainUI](./src/assets/assignment1.png)
 
 ## Directory Structure
-Karkhana-Assignment/
- ├── public/
- │ ├── vite.svg
- │ └── ...
- ├── src/
- │ ├── assets/
- │ │ ├── artisan.png
- │ │ ├── assignment.png
- │ │ ├── assignment1.png
- │ │ ├── beverage.png
- │ │ ├── artisan.png
- │ │ ├── compose.png
- │ │ ├── filter.png
- │ │ ├── hotTea.png
- │ │ ├── mojito.png
- │ │ ├── pen.png
- │ │ └── Image2.png
- │ │ └── ...
- │ ├── components/
- │ │ ├── Cart.jsx
- │ │ ├── Filters.jsx
- │ │ ├── ProductList.jsx
- │ │ ├── SearchBar.jsx
- │ │ ├── Summary.jsx
- │ │ ├── Profile.jsx
- │ │ ├── Voucher.jsx
- │ │ └── ...
- │ ├── css/
- │ │ ├── Cart.css
- │ │ ├── Filters.css
- │ │ ├── ProductList.css
- │ │ ├── SearchBar.css
- │ │ ├── Summary.css
- │ │ ├── Profile.css
- │ │ ├── Voucher.css
- │ │ └── ...
- │ ├── App.css
- │ ├── App.jsx
- │ ├── index.css
- │ └── ...
- ├── .eslintrc.cjs
- ├── .gitignore
- ├── package.json
- ├── README.md
- ├── .index.html
- └── ...
+Karkhana-Assignment/<br/>
+├── public/<br/>
+│ ├── vite.svg<br/>
+├── src/<br/>
+│ ├── assets/<br/>
+│ │ ├── artisan.png<br/>
+│ │ ├── assignment.png<br/>
+│ │ ├── assignment1.png<br/>
+│ │ ├── beverage.png<br/>
+│ │ ├── artisan.png<br/>
+│ │ ├── compose.png<br/>
+│ │ ├── filter.png<br/>
+│ │ ├── hotTea.png<br/>
+│ │ ├── mojito.png<br/>
+│ │ ├── pen.png<br/>
+│ │ ├── Image2.png<br/>
+│ │ └── ...<br/>
+│ ├── components/<br/>
+│ │ ├── Cart.jsx<br/>
+│ │ ├── Filters.jsx<br/>
+│ │ ├── ProductList.jsx<br/>
+│ │ ├── SearchBar.jsx<br/>
+│ │ ├── Summary.jsx<br/>
+│ │ ├── Profile.jsx<br/>
+│ │ ├── Voucher.jsx<br/>
+│ │ └── ...<br/>
+│ ├── css/<br/>
+│ │ ├── Cart.css<br/>
+│ │ ├── Filters.css<br/>
+│ │ ├── ProductList.css<br/>
+│ │ ├── SearchBar.css<br/>
+│ │ ├── Summary.css<br/>
+│ │ ├── Profile.css<br/>
+│ │ ├── Voucher.css<br/>
+│ │ └── ...<br/>
+│ ├── App.css<br/>
+│ ├── App.jsx<br/>
+│ ├── index.css<br/>
+│ └── ...<br/>
+├── .eslintrc.cjs<br/>
+├── .gitignore<br/>
+├── package.json<br/>
+├── README.md<br/>
+├── .index.html<br/>
+└── ...<br/>
 
 ## Features
 List out the key features of your application.
-
-- add to-cart functionality
+- add to cart functionality
 - remove products from the cart
 - Responsive for all screen Size
 
-
 ## Tech Stack
-
 List and provide a brief overview of the technologies used in the project.
 - HTML
 - CSS
