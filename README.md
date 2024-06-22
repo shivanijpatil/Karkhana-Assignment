@@ -11,7 +11,7 @@ Frontend
 karkhana-assignment-olive.vercel.app/
 
 # Screenshots of the assignment
-![mainUI](./src/assets/assignment1.png)
+![image](https://github.com/shivanijpatil/Karkhana-Assignment/assets/157980081/89ea2b3a-5f8e-49b6-951d-891955ed5577)
 
 ## Directory Structure
 Karkhana-Assignment/<br/>
